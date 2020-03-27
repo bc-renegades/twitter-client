@@ -1,7 +1,0 @@
-version: '3'
-services:
-  twitter-client:
-    build:  .
-    volumes:
-    - .:/app
-    command: fresh
